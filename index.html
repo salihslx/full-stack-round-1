@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOGO Offer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">YAY! It's BOGO</h1>
+
+    
+
+    <!-- 1 Unit -->
+    <div class="offer-box">
+      <label class="offer">
+        <input type="radio" name="offer" value="1" checked>
+        <div class="offer-content">
+          <div class="unit">1 Unit <span class="discount">10% Off</span></div>
+          <div class="price">
+            <span class="current">$10.00 USD</span>
+            <span class="original">$24.00 USD</span>
+          </div>
+          <div class="subtext">Standard Price</div>
+        </div>
+      </label>
+    </div>
+
+    <!-- 2 Unit -->
+    <div class="offer-box most-popular">
+      <label class="offer">
+        <input type="radio" name="offer" value="2">
+        <div class="offer-content">
+          <div class="unit">2 Unit <span class="discount">20% Off</span></div>
+          <div class="price">
+            <span class="current">$18.00 USD</span>
+            <span class="original">$24.00 USD</span>
+          </div>
+          <div class="subtext">MOST POPULAR</div>
+          <div class="details hidden">
+            <div class="option-row">
+              <label>#1</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>White</option>
+                <option>Color</option>
+              </select>
+            </div>
+            <div class="option-row">
+              <label>#2</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>White</option>
+                <option>Color</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <!-- 3 Unit -->
+    <div class="offer-box">
+      <label class="offer">
+        <input type="radio" name="offer" value="3">
+        <div class="offer-content">
+          <div class="unit">3 Unit <span class="discount">30% Off</span></div>
+          <div class="price">
+            <span class="current">$24.00 USD</span>
+            <span class="original">$24.00 USD</span>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="delivery">Free Delivery</div>
+      <div class="total">Total: <span class="total-price">$18.00 USD</span></div>
+      <button class="add-to-cart">+ Add to Cart</button>
+      <div class="powered">© Powered by salih A</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
